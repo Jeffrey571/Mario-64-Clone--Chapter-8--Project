@@ -1,0 +1,12 @@
+SPEED:
+
+animator.SetFloat("Speed", movement.sqrMagnitude);
+
+
+"Speed" is set to the squeare magnitutde of the player movement Vector3.
+
+
+JUMPING:
+
+Animator: If you're standing on the ground and not hitting the space bar (jump button), then you're not jumping.
+
